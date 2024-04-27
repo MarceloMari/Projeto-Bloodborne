@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1, h2, h4,
+button{
+    font-family: "Forum", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body, input{
+    font-family: "Cormorant Upright", serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 16px;
+}
+
+.container{
+    width: 1280px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+/*header*/
+header .container{
+    text-align: center;
+}
+
+header h1{
+    font-size: 96px;
+    padding-top: 60px;
+}
+
+header li{
+    display: inline;
+}
+
+header li a{
+    text-decoration: none;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+header li a:hover{
+    color: rgb(243, 57, 57);
+}
+
+/*about*/
+#about{
+    margin-top: 60px;
+    background-image:url(./imagens/blood\ moon.jpg);
+    background-blend-mode:overlay;
+    background-color: rgb(99, 47, 47);
+    background-position: center;
+    background-position-y: 0px;
+    background-size: 1920px;
+    background-repeat: no-repeat;
+    color: rgb(255, 255, 255);
+    text-align:center;
+}
+
+#about .container{
+    padding: 200px 80px 200px 80px;
+}
+
+
+/*old hunters*/
+#old-hunters{
+background-image: url(./imagens/AU_FG_Texture-1.jpg);
+color: white;
+}
+
+#old-hunters .container{
+    text-align: center;
+    padding: 80px 80px 100px 80px;
+}
+
+#old-hunters h2{
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.bosses{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.bosses img{
+    object-fit: cover;
+    height: 250px;
+    width: 350px;
+    margin: 50px auto 10px auto;
+}
+
+.bosses p{
+    padding-bottom: 30px;
+}
+
+/*contact*/
+#contact .container{
+    text-align: center;
+    padding: 150px 80px 200px 80px;
+}
+
+#contact h2{
+    font-size: 32px;
+    padding-bottom: 20px;
+}
+
+.form li{
+    display: block;
+    padding: 5px;
+}
+
+.form input{
+    height: 28px;
+    width: 230px;
+}
+input{
+    font-size: 16px
+}
+.form button{
+    font-size: 18px;
+    padding: 8px 24px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border: none;
+}
+
+button:hover{
+    background-color: rgb(99, 47, 47);
+    cursor: pointer;
+}
+
+input:focus{
+    outline-color:rgb(99, 47, 47);
+}
+
+/*footer*/
+footer{
+    background-color: black;
+    padding: 20px;
+    color: white;
+}
+
+footer .container{
+    text-align: center;
+}
